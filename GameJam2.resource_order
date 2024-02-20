@@ -17,11 +17,14 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"Sprite4","order":3,"path":"sprites/Sprite4/Sprite4.yy",},
+    {"name":"oShip","order":3,"path":"objects/oShip/oShip.yy",},
+    {"name":"sine_wave","order":2,"path":"scripts/sine_wave/sine_wave.yy",},
+    {"name":"sFastForward","order":3,"path":"sprites/sFastForward/sFastForward.yy",},
     {"name":"sShip","order":2,"path":"sprites/sShip/sShip.yy",},
     {"name":"createPlanets","order":1,"path":"scripts/createPlanets/createPlanets.yy",},
     {"name":"sPlanetButton","order":1,"path":"sprites/sPlanetButton/sPlanetButton.yy",},
     {"name":"oPlanetButton","order":1,"path":"objects/oPlanetButton/oPlanetButton.yy",},
-    {"name":"oFastFowardButton","order":2,"path":"objects/oFastFowardButton/oFastFowardButton.yy",},
+    {"name":"oFastForwardButton","order":2,"path":"objects/oFastForwardButton/oFastForwardButton.yy",},
+    {"name":"sine_between","order":3,"path":"scripts/sine_between/sine_between.yy",},
   ],
 }

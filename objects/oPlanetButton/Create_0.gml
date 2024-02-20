@@ -1,7 +1,7 @@
 showToolTip = false
 isPlanet = true
 name = "Whatever"
-distance = 0
+distance = 2
 resource = "cockinsauce"
 textOffsetX = fa_left
 textOffsetY = fa_top

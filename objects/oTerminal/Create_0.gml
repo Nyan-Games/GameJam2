@@ -9,10 +9,11 @@ global.power = 0
 global.radioactive = 0
 
 shownText = ""
-readText = "Butternut Squash"
+readText = "But\nte\nrnu\nt Squa\nsh"
 textBuffer = ""
 beingTyped = true
 readCharIndex = 1
 cursor = ""
 
+global.stage = 0
 
