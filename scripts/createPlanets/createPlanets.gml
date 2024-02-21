@@ -2,7 +2,32 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function createPlanets(){
 	var i = 0
-	while i < 3 {
-		instance_create_depth()	
+	var currentSpawn = pointer_null
+	var planetInfoRead = planetInfo
+	while i < planetCount {
+		currentSpawn = instance_create_layer(planetInfoRead[i][3],planetInfoRead[i][4],"Planets",oPlanetButton)
+		with currentSpawn {
+			name = planetInfoRead[i][0]
+			distance = planetInfoRead[i][2]
+			item = planetInfoRead[i][5]
+			switch planetInfoRead[i][1] {
+				case 0:
+					image_index = 0
+					resource = "Metals"
+				break;
+				
+				case 1:
+					image_index = 1
+					resource = "Energy"
+				break;
+				
+				case 2:
+					image_index = 2
+					resource = "Radioactive"
+				break;
+			}
+			toolTip = "Planet " + name + "\nResource: " + resource + "\nDistance: " + string(distance) + " light years away"
+		}
+		i++
 	}
 }

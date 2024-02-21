@@ -26,4 +26,3 @@ if global.stage == 1 {
 } else {
 	alarm[2] = -1	
 }
-

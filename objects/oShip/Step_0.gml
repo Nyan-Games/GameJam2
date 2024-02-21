@@ -11,8 +11,13 @@ switch global.stage {
 	case 2:
 	if x < 1000 {
 		x += 5	
+	} else {
+		global.stage = 3	
+		createItem()
 	}
 	break;
+	case 3:
+		
 	default:
 	x = -128
 }

@@ -8,6 +8,8 @@ global.minerals = 0
 global.power = 0
 global.radioactive = 0
 
+global.item = 0
+
 shownText = ""
 readText = "But\nte\nrnu\nt Squa\nsh"
 textBuffer = ""
