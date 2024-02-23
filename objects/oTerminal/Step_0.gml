@@ -26,3 +26,12 @@ if global.stage == 1 {
 } else {
 	alarm[2] = -1	
 }
+
+if countdown = true {
+	if alarm[3] = -1 {
+		alarm[3] = 60	
+	}
+	if timer = 0 {
+		room_goto(Main)	
+	}
+}

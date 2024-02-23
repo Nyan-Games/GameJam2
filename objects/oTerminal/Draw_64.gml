@@ -6,11 +6,5 @@ draw_rectangle(0,window_get_height()*.75,window_get_width(),window_get_height(),
 draw_sprite(sRoboIcon,0,64,window_get_height()*.88)
 draw_text(128,window_get_height()*.8, "> " + shownText + cursor);
 
-draw_text(8, window_get_height()*.7, "Body: " + string(global.body))
-
-
-
-
-
-
+draw_text(8, window_get_height()*.705, "Time Remaining: " + string(timer) + "s")
 

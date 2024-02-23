@@ -11,7 +11,7 @@ global.radioactive = 0
 global.item = 0
 
 shownText = ""
-readText = "But\nte\nrnu\nt Squa\nsh"
+readText = "Sorry!\n5\nline\n\limit\n:)\nunless..."
 textBuffer = ""
 beingTyped = true
 readCharIndex = 1
@@ -19,3 +19,7 @@ cursor = ""
 
 global.stage = 0
 
+global.hasItem = false
+
+timer = 120
+countdown = false
