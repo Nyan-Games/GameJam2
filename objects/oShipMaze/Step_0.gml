@@ -18,7 +18,6 @@ if right {
 
 if (left or right) and !(keyboard_check(vk_up) or keyboard_check(ord("W"))) {
 	fallSpeed = 0
-	show_debug_message("YUP")
 }
 
 if keyboard_check_pressed(vk_up) or keyboard_check_pressed(ord("W"))  {
@@ -57,7 +56,13 @@ if (place_meeting(x+moveSpeed,y,oWall)) {
 	oTerminal.timer -= 1;
 }
 
+if (mouse_check_button_pressed(mb_left) and global.flareCount > 0) {
+	instance_create_layer(x,y,"Player",oFlare)
+	darknessAlpha = 0
+	global.flareCount--;
+}
 
-
-
+if darknessAlpha < 1 {
+	darknessAlpha += 0.05;	
+}
 

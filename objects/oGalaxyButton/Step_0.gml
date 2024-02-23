@@ -16,3 +16,7 @@ if (transitionOut) {
 } else {
 
 }
+
+if (room != Main) {
+	instance_deactivate_object(self)	
+}
