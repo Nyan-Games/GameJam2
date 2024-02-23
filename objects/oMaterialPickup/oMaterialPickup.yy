@@ -31,8 +31,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "sMaterialPickup",
-    "path": "sprites/sMaterialPickup/sMaterialPickup.yy",
+    "name": "Sprite13",
+    "path": "sprites/Sprite13/Sprite13.yy",
   },
   "spriteMaskId": null,
   "visible": true,

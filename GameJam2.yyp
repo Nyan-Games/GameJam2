@@ -31,7 +31,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"oTerminal","path":"objects/oTerminal/oTerminal.yy",},},
@@ -64,7 +64,9 @@
     {"id":{"name":"sine_between","path":"scripts/sine_between/sine_between.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"oFlareGlow","path":"objects/oFlareGlow/oFlareGlow.yy",},},
+    {"id":{"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},},
     {"id":{"name":"string_random","path":"scripts/string_random/string_random.yy",},},
+    {"id":{"name":"dirtBG","path":"sprites/dirtBG/dirtBG.yy",},},
     {"id":{"name":"Main","path":"rooms/Main/Main.yy",},},
   ],
   "RoomOrderNodes": [

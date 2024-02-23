@@ -45,5 +45,7 @@
     {"name":"sine_between","order":3,"path":"scripts/sine_between/sine_between.yy",},
     {"name":"oWall","order":6,"path":"objects/oWall/oWall.yy",},
     {"name":"oFlareGlow","order":10,"path":"objects/oFlareGlow/oFlareGlow.yy",},
+    {"name":"Sprite13","order":12,"path":"sprites/Sprite13/Sprite13.yy",},
+    {"name":"dirtBG","order":13,"path":"sprites/dirtBG/dirtBG.yy",},
   ],
 }
