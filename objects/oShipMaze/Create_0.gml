@@ -1,4 +1,4 @@
-baseSpeed = 10;
+baseSpeed = 5;
 speedUp = 15;
 fallSpeed = 0;
 acceleration = 0.025

@@ -22,5 +22,5 @@ global.stage = 0
 
 global.hasItem = false
 
-timer = 120
+timer = 90;
 countdown = false

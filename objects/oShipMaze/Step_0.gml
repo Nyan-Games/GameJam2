@@ -35,9 +35,9 @@ if (keyboard_check(vk_up) or keyboard_check(ord("W"))) {
 }
 
 if keyboard_check(vk_shift) {
-	moveSpeed = directionH*5
+	moveSpeed = directionH*4
 } else {
-	moveSpeed = directionH*3
+	moveSpeed = directionH*2
 }
 
 x += moveSpeed

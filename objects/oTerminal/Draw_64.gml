@@ -9,4 +9,3 @@ draw_sprite(sRoboIcon,0,64,window_get_height()*.88)
 draw_text(128,window_get_height()*.8, "> " + shownText + cursor);
 
 draw_text(8, window_get_height()*.705, "   Time Remaining: " + string(timer) + "s  |  Flares: " + string(global.flareCount) + "  |  Minerals: " + string(global.minerals) + "  |  Power: " + string(global.power) + "  |  Exotics: " + string(global.exotic))
-

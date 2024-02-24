@@ -4,7 +4,7 @@
   "name": "sDarkness",
   "bbox_bottom": 999,
   "bbox_left": 0,
-  "bbox_right": 999,
+  "bbox_right": 1499,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f2681bd1-249b-4b49-adac-c6128565095d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dfb3714a-d270-4c33-b373-426fac226641",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 1000,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bfada5c5-55c8-4c4d-9189-b561d4fa69bc","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"28488526-3342-4f82-a3f4-aa5ce26f39fc","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 9,
@@ -54,12 +54,12 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f2681bd1-249b-4b49-adac-c6128565095d","path":"sprites/sDarkness/sDarkness.yy",},},},"Disabled":false,"id":"5e8e17ee-4c3a-443c-a1ca-61f381be3656","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"dfb3714a-d270-4c33-b373-426fac226641","path":"sprites/sDarkness/sDarkness.yy",},},},"Disabled":false,"id":"851ff445-b94c-4b42-bb20-227ae862b881","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 500,
+    "xorigin": 750,
     "yorigin": 475,
   },
   "swatchColours": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1000,
+  "width": 1500,
 }

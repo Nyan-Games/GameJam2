@@ -1,6 +1,6 @@
 fallSpeed = 0.025;
-acceleration = 0.025
-fallSpeedMax = 3;
+acceleration = 0.1;
+fallSpeedMax = 5;
 
 angleOffset = irandom(360)
 

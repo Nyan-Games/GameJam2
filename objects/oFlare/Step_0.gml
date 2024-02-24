@@ -7,7 +7,7 @@ if (place_meeting(x,y,oWall)) {
 	image_angle = 90
 }
 
-if (abs(fallSpeed) < 0.025) {
+if (abs(fallSpeed) < acceleration) {
 	fallSpeed = 0	
 }
 

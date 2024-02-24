@@ -1,4 +1,4 @@
-timer = 120
+timer = 90;
 if (room == Main) {
 	countdown = false	
 } else {
