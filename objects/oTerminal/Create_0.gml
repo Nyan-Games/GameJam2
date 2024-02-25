@@ -29,3 +29,7 @@ timerColor = c_green
 textMode = true
 
 global.hp = 3
+global.evilHealth = 0
+global.charge = 0
+
+global.powerUpSpawn = 2

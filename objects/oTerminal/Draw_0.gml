@@ -7,7 +7,14 @@ if (!textMode) {
 	draw_line_width(-5,window_get_height()*.7,window_get_width(),window_get_height()*.7,5)
 	draw_rectangle(0,window_get_height()*.75,window_get_width(),window_get_height(),true)
 	
+	if (global.charge == 3) {
+		draw_set_halign(fa_right)
+		draw_set_color(c_fuchsia)
+		draw_text(800-8, window_get_height()*.705, "PRESS LEFT CLICK TO FIRE!!")
+	}
+	
 	draw_set_color(c_red)
+
 	draw_set_halign(fa_middle)
 	draw_text(window_get_width()/2, window_get_height()*.705, "--------DANGER!!!!--------")
 	draw_set_halign(fa_left)

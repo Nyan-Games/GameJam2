@@ -1,4 +1,4 @@
-x -= 5
+x -= 7
 
 if position_meeting(x,y,oPlayer) and oPlayer.hitStun = false {
 	global.hp --;
