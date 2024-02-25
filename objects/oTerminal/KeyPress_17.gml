@@ -1,4 +1,4 @@
-room_goto(maze1)
+room_goto(maze6);
 
 
 

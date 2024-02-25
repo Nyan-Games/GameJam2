@@ -22,7 +22,7 @@ global.stage = 0
 
 global.hasItem = false
 
-timer = 90;
+timer = 120;
 countdown = false
 timerColor = c_green
 

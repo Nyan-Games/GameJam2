@@ -9,3 +9,6 @@ moveSpeed = 0
 
 darknessAlpha = 1
 global.flareCount = 3
+
+tilemapMain = layer_tilemap_get_id("Tiles_1");
+tilemapSub = layer_tilemap_get_id("Tiles_2");

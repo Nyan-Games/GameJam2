@@ -24,7 +24,6 @@
     {"name":"oPointingPlayerMain","order":14,"path":"objects/oPointingPlayerMain/oPointingPlayerMain.yy",},
     {"name":"sWall","order":7,"path":"sprites/sWall/sWall.yy",},
     {"name":"maze2","order":2,"path":"rooms/maze2/maze2.yy",},
-    {"name":"maze5","order":5,"path":"rooms/maze5/maze5.yy",},
     {"name":"oShip","order":3,"path":"objects/oShip/oShip.yy",},
     {"name":"sShipMaze","order":6,"path":"sprites/sShipMaze/sShipMaze.yy",},
     {"name":"sMaterialPickup","order":11,"path":"sprites/sMaterialPickup/sMaterialPickup.yy",},

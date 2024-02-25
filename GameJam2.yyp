@@ -31,7 +31,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"oTerminal","path":"objects/oTerminal/oTerminal.yy",},},
@@ -43,7 +43,6 @@
     {"id":{"name":"oPointingPlayerMain","path":"objects/oPointingPlayerMain/oPointingPlayerMain.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
     {"id":{"name":"maze2","path":"rooms/maze2/maze2.yy",},},
-    {"id":{"name":"maze5","path":"rooms/maze5/maze5.yy",},},
     {"id":{"name":"oShip","path":"objects/oShip/oShip.yy",},},
     {"id":{"name":"sShipMaze","path":"sprites/sShipMaze/sShipMaze.yy",},},
     {"id":{"name":"sMaterialPickup","path":"sprites/sMaterialPickup/sMaterialPickup.yy",},},
@@ -89,7 +88,6 @@
     {"roomId":{"name":"maze2","path":"rooms/maze2/maze2.yy",},},
     {"roomId":{"name":"maze3","path":"rooms/maze3/maze3.yy",},},
     {"roomId":{"name":"maze4","path":"rooms/maze4/maze4.yy",},},
-    {"roomId":{"name":"maze5","path":"rooms/maze5/maze5.yy",},},
     {"roomId":{"name":"maze6","path":"rooms/maze6/maze6.yy",},},
   ],
   "templateType": "game",

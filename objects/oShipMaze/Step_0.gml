@@ -42,7 +42,7 @@ if keyboard_check(vk_shift) {
 
 x += moveSpeed
 
-if (place_meeting(x,y,oWall)) {
+if (place_meeting(x,y,tilemapMain)) {
 	if (keyboard_check(vk_up) or keyboard_check(ord("W"))) {
 		y += fallSpeed
 	} else {
@@ -54,7 +54,25 @@ if (place_meeting(x,y,oWall)) {
 	oTerminal.timerColor = c_green
 }
 
-if (place_meeting(x+moveSpeed,y,oWall)) {
+if (place_meeting(x,y,tilemapSub)) {
+	if (keyboard_check(vk_up) or keyboard_check(ord("W"))) {
+		y += fallSpeed
+	} else {
+		y -= fallSpeed
+	}
+	oTerminal.timer -= 1;
+	oTerminal.timerColor = c_red
+} else {
+	oTerminal.timerColor = c_green
+}
+
+if (place_meeting(x+moveSpeed,y,tilemapMain)) {
+	x -= moveSpeed
+	oTerminal.timer -= 1;
+	oTerminal.timerColor = c_red	
+}
+
+if (place_meeting(x+moveSpeed,y,tilemapSub)) {
 	x -= moveSpeed
 	oTerminal.timer -= 1;
 	oTerminal.timerColor = c_red	
