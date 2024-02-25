@@ -24,3 +24,8 @@ global.hasItem = false
 
 timer = 90;
 countdown = false
+timerColor = c_green
+
+textMode = true
+
+global.hp = 3

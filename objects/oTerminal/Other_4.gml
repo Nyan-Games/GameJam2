@@ -12,8 +12,7 @@ while (materialSpawns[0] == materialSpawns[1]) {
 }
 show_debug_message(materialSpawns)
 
-
-
+timerColor = c_green
 
 
 

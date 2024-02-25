@@ -49,11 +49,15 @@ if (place_meeting(x,y,oWall)) {
 		y -= fallSpeed
 	}
 	oTerminal.timer -= 1;
+	oTerminal.timerColor = c_red
+} else {
+	oTerminal.timerColor = c_green
 }
 
 if (place_meeting(x+moveSpeed,y,oWall)) {
 	x -= moveSpeed
 	oTerminal.timer -= 1;
+	oTerminal.timerColor = c_red	
 }
 
 if (mouse_check_button_pressed(mb_left) and global.flareCount > 0) {
@@ -66,3 +70,6 @@ if darknessAlpha < 1 {
 	darknessAlpha += 0.05;	
 }
 
+if (oTerminal.timer <= 30) {
+	oTerminal.timerColor = c_red	
+}
