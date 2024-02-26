@@ -8,7 +8,7 @@ if global.powerUpSpawn == 0 {
 	global.powerUpSpawn --;
 }
 
-
+//playercurrentY = y;
 
 
 

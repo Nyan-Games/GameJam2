@@ -1,4 +1,7 @@
 //stats
+
+randomize();
+
 global.minerals = 0
 global.power = 0
 global.exotic = 0
@@ -31,5 +34,6 @@ textMode = true
 global.hp = 3
 global.evilHealth = 0
 global.charge = 0
+global.whichBoss = irandom_range(1, 3); // sets whichBoss to either 1 or 2
 
 global.powerUpSpawn = 2

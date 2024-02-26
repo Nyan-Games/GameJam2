@@ -46,6 +46,6 @@ if (global.charge == 3) and mouse_check_button_pressed(mb_left) {
 if firing {
 	instance_create_layer(x+10,y-irandom_range(-20,20),"Player",oGoodBullets)
 	if alarm[1] = -1 {
-		alarm[1] = 90	
+		alarm[1] = 90
 	}
 }
