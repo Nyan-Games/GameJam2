@@ -18,6 +18,12 @@ if (global.evilHealth = 1 && global.whichBoss = 3)
 }
 
 
+if position_meeting(x,y,oPlayer) and oPlayer.hitStun = false {
+	global.hp --;
+	instance_destroy(self)
+	oPlayer.hitStun = true
+}
+
 
 
 

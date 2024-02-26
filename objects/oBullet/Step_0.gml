@@ -7,7 +7,10 @@ if position_meeting(x,y,oPlayer) and oPlayer.hitStun = false {
 }
 
 
+if position_meeting(x,y,oGoodBullets) {
+	instance_destroy(self)
 
+}
 
 
 

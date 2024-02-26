@@ -1,4 +1,9 @@
-canMove = true;
+advanceSpeed = 10
+
+
+
+
+
 
 
 

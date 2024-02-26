@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "sBattleDevil2",
   "bbox_bottom": 637,
-  "bbox_left": 567,
+  "bbox_left": 568,
   "bbox_right": 860,
   "bbox_top": 139,
   "bboxMode": 0,

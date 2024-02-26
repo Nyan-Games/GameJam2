@@ -1,1 +1,3 @@
-x += 8
+x += advanceSpeed;
+
+image_index +=1;

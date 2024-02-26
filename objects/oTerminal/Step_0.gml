@@ -51,6 +51,7 @@ if (!instance_exists(oPlayer) and !textMode) {
 		instance_destroy(oBullet)
 		instance_destroy(oPowerUp)
 		instance_destroy(oGoodBullets)
+		instance_destroy(oEvil)
 	}
 }
 /*

@@ -31,7 +31,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"oTerminal","path":"objects/oTerminal/oTerminal.yy",},},
@@ -95,10 +95,10 @@
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"oFlareGlow","path":"objects/oFlareGlow/oFlareGlow.yy",},},
     {"id":{"name":"sBattleBlob2","path":"sprites/sBattleBlob2/sBattleBlob2.yy",},},
-    {"id":{"name":"Sprite15","path":"sprites/Sprite15/Sprite15.yy",},},
+    {"id":{"name":"sSpaceBG","path":"sprites/sSpaceBG/sSpaceBG.yy",},},
     {"id":{"name":"sGoodBullet","path":"sprites/sGoodBullet/sGoodBullet.yy",},},
     {"id":{"name":"tileSet","path":"sprites/tileSet/tileSet.yy",},},
-    {"id":{"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},},
+    {"id":{"name":"sMineralPickup","path":"sprites/sMineralPickup/sMineralPickup.yy",},},
     {"id":{"name":"oPowerUp","path":"objects/oPowerUp/oPowerUp.yy",},},
     {"id":{"name":"sBattleDevil","path":"sprites/sBattleDevil/sBattleDevil.yy",},},
     {"id":{"name":"string_random","path":"scripts/string_random/string_random.yy",},},
