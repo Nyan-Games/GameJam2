@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sShip",
-    "path": "sprites/sShip/sShip.yy",
+    "name": "sStarZoom",
+    "path": "sprites/sStarZoom/sStarZoom.yy",
   },
   "spriteMaskId": null,
   "visible": true,

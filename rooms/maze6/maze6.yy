@@ -15,6 +15,7 @@
     {"name":"inst_9D654C6_1_1_1_1_1","path":"rooms/maze6/maze6.yy",},
     {"name":"inst_43031D8C_1_1_1_1_1","path":"rooms/maze6/maze6.yy",},
     {"name":"inst_32728922_1_1_1_1_1","path":"rooms/maze6/maze6.yy",},
+    {"name":"inst_EF80166","path":"rooms/maze6/maze6.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -22,7 +23,8 @@
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Darkness","assets":[],"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Player","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_43EFAE36_1_1_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oShipMaze","path":"objects/oShipMaze/oShipMaze.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1322.0,"y":16.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6E4DAC01_1_1_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":128.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6E4DAC01_1_1_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1315.0,"y":10.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_EF80166","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oParallax","path":"objects/oParallax/oParallax.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":512.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","depth":300,"effectEnabled":true,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":75,"SerialiseWidth":100,"TileCompressedData":[
 80,130,131,130,131,130,131,130,131,130,131,130,131,130,131,2018,399,406,410,411,398,399,398,399,398,398,399,410,411,398,399,410,411,398,399,194,195,194,195,194,195,131,130,131,130,131,130,131,130,131,130,131,194,195,194,195,130,131,130,131,130,131,130,131,130,131,195,194,195,194,195,194,195,194,195,194,195,194,195,194,195,-5,-2147483648,95,130,131,130,131,130,131,130,131,130,131,130,131,130,131,130,194,
@@ -112,21 +114,14 @@
         {"name":"g_GlowGamma","type":0,"value":"0",},
         {"name":"g_GlowAlpha","type":0,"value":"1",},
       ],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4278201087,"depth":700,"effectEnabled":true,"effectType":"_filter_parallax","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
-        {"name":"g_ParallaxDirection","type":0,"value":"0",},
-        {"name":"g_ParallaxDirection","type":0,"value":"0.7",},
-        {"name":"g_ParallaxPerspective","type":0,"value":"1",},
-        {"name":"g_ParallaxPosition","type":0,"value":"0",},
-        {"name":"g_ParallaxPosition","type":0,"value":"2",},
-        {"name":"g_ParallaxPosition","type":0,"value":"0",},
-        {"name":"g_ParallaxScale","type":0,"value":"0.1",},
-        {"name":"g_ParallaxDepth","type":0,"value":"1",},
-        {"name":"g_ParallaxFogColour","type":1,"value":"#FFCCB299",},
-        {"name":"g_ParallaxFogRange","type":0,"value":"10",},
-        {"name":"g_ParallaxFogRange","type":0,"value":"40",},
-        {"name":"g_ParallaxFogDepth","type":0,"value":"8",},
-        {"name":"g_ParallaxTexture","type":2,"value":"dirtBG",},
-      ],"spriteId":{"name":"dirtBG","path":"sprites/dirtBG/dirtBG.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
+    {"resourceType":"GMRLayer","resourceVersion":"1.0","name":"bgLayers","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[
+        {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Backgrounds_1","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"bgCave6","path":"sprites/bgCave6/bgCave6.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+        {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Backgrounds_2","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"bgCave5","path":"sprites/bgCave5/bgCave5.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+        {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Backgrounds_4","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":1000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"bgCave3","path":"sprites/bgCave3/bgCave3.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+        {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Backgrounds_5","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":1100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"bgCave2","path":"sprites/bgCave2/bgCave2.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+        {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Backgrounds_3","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":1200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"bgCave4","path":"sprites/bgCave4/bgCave4.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+        {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Backgrounds_6","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":1300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"bgCave1","path":"sprites/bgCave1/bgCave1.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+      ],"properties":[],"userdefinedDepth":false,"visible":true,},
   ],
   "parent": {
     "name": "Rooms",

@@ -37,3 +37,4 @@ global.charge = 0
 global.whichBoss = irandom_range(1, 3); // sets whichBoss to either 1 or 2
 
 global.powerUpSpawn = 2
+global.distance = 0

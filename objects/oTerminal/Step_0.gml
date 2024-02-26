@@ -23,8 +23,12 @@ if global.stage == 1 {
 	if alarm[2] = -1 {
 		alarm[2] = fps*15
 	}
-} else {
-	alarm[2] = -1	
+}
+
+if global.stage == 2 {
+	if alarm[2] = -1 {
+		alarm[2] = 5
+	}
 }
 
 if countdown = true {
@@ -38,7 +42,7 @@ if countdown = true {
 
 if (!instance_exists(oPlayer) and !textMode) {
 	instance_create_layer(32,500,"Player",oPlayer)	
-	instance_create_layer(700, 525, "Player", oBattle)
+	instance_create_layer(700, 525, "Planets", oBattle)
 	instance_create_layer(-70, 525, "Player", oEvil)
 } else {
 	if textMode {
@@ -60,3 +64,5 @@ if global.hp == 0 {
 	textMode = true
 	global.hp = 3
 }
+
+		show_debug_message(global.distance)

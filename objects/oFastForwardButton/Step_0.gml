@@ -8,7 +8,8 @@ if active {
 	if position_meeting(mouse_x,mouse_y,self) {
 		if mouse_check_button_pressed(mb_left) {
 			global.stage = 2
-			oShip.bobSpeed = 1
+			global.distance = 100
+			oTerminal.alarm[2] = -1
 			oTerminal.readText = "I'm going to take a nap.....\n> ENTERING HIBERNATION MODE."
 		}
 	}

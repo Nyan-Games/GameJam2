@@ -3,7 +3,7 @@ if alarm[0] = -1 and attacking {
 }
 if (global.evilHealth = 1 && global.whichBoss = 1)
 {
-	sprite_index = sBattleDemon2;
+	sprite_index = sBattleBlob2;
 }
 
 

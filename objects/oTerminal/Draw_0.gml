@@ -11,6 +11,7 @@ if (!textMode) {
 		draw_set_halign(fa_right)
 		draw_set_color(c_fuchsia)
 		draw_text(325, window_get_height()*.705, "PRESS LEFT CLICK TO FIRE!!")
+		draw_set_halign(fa_left)
 	}
 	
 	draw_set_color(c_red)

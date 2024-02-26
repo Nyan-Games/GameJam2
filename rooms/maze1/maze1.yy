@@ -60,6 +60,7 @@
     {"name":"inst_464FFA74","path":"rooms/maze1/maze1.yy",},
     {"name":"inst_EB1A599","path":"rooms/maze1/maze1.yy",},
     {"name":"inst_D4D470E","path":"rooms/maze1/maze1.yy",},
+    {"name":"inst_65B01FA","path":"rooms/maze1/maze1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -131,8 +132,9 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_464FFA74","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oWall","path":"objects/oWall/oWall.yy",},"properties":[],"rotation":90.0,"scaleX":-0.79303616,"scaleY":15.303877,"x":607.0316,"y":1184.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_EB1A599","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oWall","path":"objects/oWall/oWall.yy",},"properties":[],"rotation":90.0,"scaleX":-0.79303616,"scaleY":5.5151515,"x":242.03174,"y":1056.1118,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_D4D470E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oWall","path":"objects/oWall/oWall.yy",},"properties":[],"rotation":0.0,"scaleX":-0.79303616,"scaleY":5.151517,"x":31.04663,"y":862.6372,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_65B01FA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oParallax","path":"objects/oParallax/oParallax.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":224.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"dirtBG","path":"sprites/dirtBG/dirtBG.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"parallax1","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"dirtBG","path":"sprites/dirtBG/dirtBG.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
   "parent": {
     "name": "Rooms",
