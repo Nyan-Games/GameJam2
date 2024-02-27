@@ -1,0 +1,1 @@
+audio_stop_sound(the_futuristic_ambience_everything_is_one_179395);

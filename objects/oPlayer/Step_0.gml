@@ -39,7 +39,7 @@ if hitStun = true {
 
 image_index = global.charge
 
-if (global.charge == 3) and mouse_check_button_pressed(mb_left) {
+if (global.charge >= 3) and mouse_check_button_pressed(mb_left) {
 	firing = true
 }
 
