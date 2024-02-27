@@ -103,6 +103,7 @@
     {"name":"oBullet","order":16,"path":"objects/oBullet/oBullet.yy",},
     {"name":"shiptopview","order":37,"path":"sprites/shiptopview/shiptopview.yy",},
     {"name":"warningShot","order":14,"path":"sounds/warningShot/warningShot.yy",},
+    {"name":"enola_SOLOCKEDIN","order":22,"path":"sprites/enola_SOLOCKEDIN/enola_SOLOCKEDIN.yy",},
     {"name":"maze2","order":3,"path":"rooms/maze2/maze2.yy",},
     {"name":"maze6","order":6,"path":"rooms/maze6/maze6.yy",},
     {"name":"shining_8_bit","order":12,"path":"sounds/shining_8_bit/shining_8_bit.yy",},

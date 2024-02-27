@@ -32,7 +32,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"oTerminal","path":"objects/oTerminal/oTerminal.yy",},},
@@ -125,6 +125,7 @@
     {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},},
     {"id":{"name":"shiptopview","path":"sprites/shiptopview/shiptopview.yy",},},
     {"id":{"name":"warningShot","path":"sounds/warningShot/warningShot.yy",},},
+    {"id":{"name":"enola_SOLOCKEDIN","path":"sprites/enola_SOLOCKEDIN/enola_SOLOCKEDIN.yy",},},
     {"id":{"name":"maze2","path":"rooms/maze2/maze2.yy",},},
     {"id":{"name":"maze6","path":"rooms/maze6/maze6.yy",},},
     {"id":{"name":"shining_8_bit","path":"sounds/shining_8_bit/shining_8_bit.yy",},},
