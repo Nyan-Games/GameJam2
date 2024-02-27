@@ -17,7 +17,6 @@ switch global.stage {
 
 image_xscale = scale
 image_yscale = scale
-show_debug_message(scale)
 
 
 

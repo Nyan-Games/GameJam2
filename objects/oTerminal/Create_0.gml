@@ -15,7 +15,8 @@ global.radioactive = 0
 global.item = 0
 
 shownText = ""
-readText = "Sorry!\n5\nline\n\limit\n:)\nunless..."
+readText = OPENING_1
+storedText = OPENING_1
 textBuffer = ""
 beingTyped = true
 readCharIndex = 1
@@ -38,3 +39,5 @@ global.whichBoss = irandom_range(1, 3); // sets whichBoss to either 1 or 2
 
 global.powerUpSpawn = 2
 global.distance = 0
+
+speaker = 0

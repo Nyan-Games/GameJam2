@@ -1,3 +1,8 @@
+if string_char_at(readText,1) = 0 or string_char_at(readText,1) = 1 or string_char_at(readText,1) = 2 or string_char_at(readText,1) = 3 or string_char_at(readText,1) = 4 or string_char_at(readText,1) = 5 or string_char_at(readText,1) = 6 or string_char_at(readText,1) = 7 or string_char_at(readText,1) = 8 or string_char_at(readText,1) = 9 {
+	speaker = real(string_char_at(readText,1))
+	readText = string_copy(readText,2,string_length(readText)-1)
+}
+
 if (textBuffer != readText) {
 	textBuffer = readText;
 	beingTyped = true
@@ -7,7 +12,7 @@ if (textBuffer != readText) {
 
 if (shownText != readText) {
 	if beingTyped and alarm[0] = -1 {
-		alarm[0] = 3
+		alarm[0] = 1
 		cursor = ""
 	}
 	if (shownText == readText) {
@@ -65,5 +70,3 @@ if global.hp == 0 {
 	textMode = true
 	global.hp = 3
 }
-
-		show_debug_message(global.distance)

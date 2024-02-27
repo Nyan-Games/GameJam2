@@ -8,11 +8,11 @@ draw_set_valign(fa_top)
 	draw_rectangle(0,window_get_height()*.75,window_get_width(),window_get_height(),true)
 	
 
-	draw_sprite(sRoboIcon,0,64,window_get_height()*.88)
+	draw_sprite(sRoboIcon,speaker,64,window_get_height()*.88)
 	draw_text(128,window_get_height()*.8, "> " + shownText + cursor);
 
-	draw_text(8, window_get_height()*.705, "                       |  Flares: " + string(global.flareCount) + "  |  Minerals: " + string(global.minerals) + "  |  Power: " + string(global.power) + "  |  Exotics: " + string(global.exotic))
+	draw_text(8, window_get_height()*.705, "                        |  Flares: " + string(global.flareCount) + "  |  Minerals: " + string(global.minerals) + "  |  Power: " + string(global.power) + "  |  Exotics: " + string(global.exotic))
 	draw_set_color(timerColor)
-	draw_text(8, window_get_height()*.705, "   Time Remaining: " + string(timer) + "s")
+	draw_text(8, window_get_height()*.705, "   Time Remaining: " + string(timer) + "s ")
 	draw_set_color(c_green);
 }
