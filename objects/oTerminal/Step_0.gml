@@ -41,13 +41,23 @@ if countdown = true {
 		alarm[3] = 60	
 	}
 	if timer = 0 {
-		room_goto(Main)	
+		room_goto(Main)
+		readText = world_2_1_0
+	storedText = world_2_1_0
+	global.act = 1
 	}
+}
+
+if !instance_exists(oMaterialPickup) and room != Main {
+	room_goto(Main)
+	readText = world_2_1_0
+	storedText = world_2_1_0
+	global.act = 1
 }
 
 if (!instance_exists(oPlayer) and !textMode) {
 	instance_create_layer(32,500,"Player",oPlayer)	
-	instance_create_layer(700, 525, "Planets", oBattle)
+	instance_create_layer(700, 525, "Player", oBattle)
 	instance_create_layer(-70, 525, "Player", oEvil)
 } else {
 	if textMode {
@@ -70,3 +80,5 @@ if global.hp == 0 {
 	textMode = true
 	global.hp = 3
 }
+
+show_debug_message(global.act)

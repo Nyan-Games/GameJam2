@@ -1,5 +1,5 @@
 showToolTip = false
-name = "Whatever"
+name = "Mysterious"
 planetCount = irandom_range(2,4)
 textOffsetX = fa_left
 textOffsetY = fa_top
@@ -35,4 +35,9 @@ if (y > 300) {
 } else {
 	toolTipDirectionY = 1
 	textOffsetY = fa_top
+}
+if global.currentSystem != 0 {
+if image_index + 1 != global.currentSystem {
+		instance_destroy(self)
+	}
 }

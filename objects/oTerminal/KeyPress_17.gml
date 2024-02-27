@@ -1,5 +1,4 @@
-room_goto(maze2);
-
+//global.charge++
 
 
 

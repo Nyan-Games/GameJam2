@@ -17,3 +17,4 @@ canHitSFX = true;
 
 audio_play_sound(gloomy_serious_dark_ambient_111685, 0, true);
 
+show_debug_message(room)

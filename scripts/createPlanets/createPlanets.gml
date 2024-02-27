@@ -12,18 +12,18 @@ function createPlanets(){
 			item = planetInfoRead[i][5]
 			switch planetInfoRead[i][1] {
 				case 0:
-					image_index = 0
-					resource = "Metals"
+					image_index = 0 + irandom(5)
+					resource = "Minerals"
 				break;
 				
 				case 1:
-					image_index = 1
-					resource = "Energy"
+					image_index = 1 + irandom(5)
+					resource = "Power"
 				break;
 				
 				case 2:
-					image_index = 2
-					resource = "Radioactive"
+					image_index = 2 + irandom(5)
+					resource = "Exotics"
 				break;
 			}
 			toolTip = "Planet " + name + "\nResource: " + resource + "\nDistance: " + string(distance) + " light years away"

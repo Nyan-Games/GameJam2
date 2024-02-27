@@ -59,7 +59,8 @@ if (place_meeting(x,y,tilemapMain)) {
 	}
 	oTerminal.timer -= 1;
 	oTerminal.timerColor = c_red
-	
+	oTerminal.readText = mining_ow
+	oTerminal.storedText = mining_ow
 	hitScriptSound()
 	
 } else {
@@ -74,7 +75,8 @@ if (place_meeting(x,y,tilemapSub)) {
 	}
 	oTerminal.timer -= 1;
 	oTerminal.timerColor = c_red
-	
+	oTerminal.readText = mining_ow
+	oTerminal.storedText = mining_ow
 	hitScriptSound()
 	
 } else {
@@ -85,7 +87,8 @@ if (place_meeting(x+moveSpeed,y,tilemapMain)) {
 	x -= moveSpeed
 	oTerminal.timer -= 1;
 	oTerminal.timerColor = c_red	
-		
+	oTerminal.readText = mining_ow
+	oTerminal.storedText = mining_ow
 	hitScriptSound()
 }
 
@@ -93,7 +96,8 @@ if (place_meeting(x+moveSpeed,y,tilemapSub)) {
 	x -= moveSpeed
 	oTerminal.timer -= 1;
 	oTerminal.timerColor = c_red
-		
+			oTerminal.readText = mining_ow
+	oTerminal.storedText = mining_ow
 	hitScriptSound()
 }
 

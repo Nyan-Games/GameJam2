@@ -41,3 +41,9 @@ global.powerUpSpawn = 2
 global.distance = 0
 
 speaker = 0
+global.planetSprite = 0
+
+global.currentMaterial = 0
+global.currentSystem = 0
+
+global.act = 0

@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sStarZoom",
-    "path": "sprites/sStarZoom/sStarZoom.yy",
+    "name": "sPlanets",
+    "path": "sprites/sPlanets/sPlanets.yy",
   },
   "spriteMaskId": null,
   "visible": true,
