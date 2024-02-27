@@ -27,10 +27,7 @@ if (shownText != readText) {
 			readText = OPENING_7
 			storedText = OPENING_7
 		break;
-		case OPENING_7:
-			readText = OPENING_8
-			storedText = OPENING_8
-		break;
+
 	}
 	
 }

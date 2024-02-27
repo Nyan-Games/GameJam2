@@ -2,8 +2,8 @@ x += advanceSpeed;
 
 if (glitchVolume < 3)
 {
-	glitchVolume += .02;
-	mainVolume -= .005;
+	glitchVolume += .025;
+	mainVolume -= .025;
 }
 
 

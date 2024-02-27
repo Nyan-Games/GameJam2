@@ -19,3 +19,4 @@ if (y > 300) {
 	toolTipDirectionY = 1
 	textOffsetY = fa_top
 }
+

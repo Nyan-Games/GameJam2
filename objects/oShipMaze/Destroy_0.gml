@@ -1,0 +1,1 @@
+audio_stop_sound(gloomy_serious_dark_ambient_111685);

@@ -24,19 +24,19 @@ if (!textMode) {
 	
 	switch global.hp {
 		case 3:
-			draw_text(8, window_get_height()*.705, "<3 <3 <3")
+			draw_text(425, window_get_height()*.705, "<3 <3 <3")
 		break;
 		
 		case 2:
-			draw_text(8, window_get_height()*.705, "<3 <3")
+			draw_text(425, window_get_height()*.705, "<3 <3")
 		break;
 		
 		case 1:
-			draw_text(8, window_get_height()*.705, "<3")
+			draw_text(425, window_get_height()*.705, "<3")
 		break;
 		
 		case 0:
-			draw_text(8, window_get_height()*.705, "")
+			draw_text(425, window_get_height()*.705, "")
 		break;
 	}
 }

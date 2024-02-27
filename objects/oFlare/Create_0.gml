@@ -9,3 +9,4 @@ glowID.follow = id
 
 tilemapMain = layer_tilemap_get_id("Tiles_1");
 tilemapSub = layer_tilemap_get_id("Tiles_2");
+clickSound();

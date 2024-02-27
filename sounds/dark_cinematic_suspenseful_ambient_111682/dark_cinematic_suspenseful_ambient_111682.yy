@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "dark_cinematic_suspenseful_ambient_111682.mp3",
   "type": 0,
-  "volume": 1.0,
+  "volume": 0.18,
 }

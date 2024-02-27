@@ -2,7 +2,7 @@ attackTimer = 150
 attack = 0
 attacking = true
 
-audio_play_sound(RedStone128___The_Final_Battle__8_bit_Epic_, 0, true);
+audio_play_sound(RedStone128___The_Final_Battle__8_bit_Epic_, 5, true, .25);
 
 if (global.whichBoss = 1)
 {

@@ -101,8 +101,7 @@ if (mouse_check_button_pressed(mb_left) and global.flareCount > 0) {
 	instance_create_layer(x,y,"Player",oFlare)
 	darknessAlpha = 0
 	global.flareCount--;
-	audio_sound_pitch(coin, 2);
-	audio_play_sound(coin, 0, false);
+	
 }
 
 if darknessAlpha < 1 {
@@ -111,6 +110,5 @@ if darknessAlpha < 1 {
 
 if (oTerminal.timer <= 30) {
 	oTerminal.timerColor = c_red
-	
-
+	lowOnTime = true
 }

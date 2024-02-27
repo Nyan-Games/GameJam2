@@ -14,3 +14,6 @@ tilemapMain = layer_tilemap_get_id("Tiles_1");
 tilemapSub = layer_tilemap_get_id("Tiles_2");
 
 canHitSFX = true;
+
+audio_play_sound(gloomy_serious_dark_ambient_111685, 0, true);
+

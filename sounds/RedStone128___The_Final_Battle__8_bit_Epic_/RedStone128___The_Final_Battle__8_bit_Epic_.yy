@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "RedStone128___The_Final_Battle__8_bit_Epic_.mp3",
   "type": 0,
-  "volume": 0.0,
+  "volume": 0.4,
 }
