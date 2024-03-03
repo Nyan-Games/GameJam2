@@ -4,12 +4,13 @@ if position_meeting(mouse_x,mouse_y,self) {
 		
 		createPlanets();
 		instance_deactivate_object(oGalaxyButton)
+		clickSound();
 		
 		global.currentSystem = image_index + 1
 		
-		if global.act = 0 {
-			
-			switch global.currentSystem
+/*		if global.act = 0 {
+		//this all occurs when you click on a solar system	
+			switch global.currentSystem		
 			{
 				case 1:				//case 1 is the original plotline
 					oTerminal.readText = original_IS1_1
@@ -24,23 +25,24 @@ if position_meeting(mouse_x,mouse_y,self) {
 				case 3:			//case 3 is folllow programming
 					oTerminal.readText = FOLLOW_IS_1
 					oTerminal.storedText = FOLLOW_IS_1
-				break;
-		}
-		
-		
-		clickSound();
+				break; 
+		}*/	
 	}
 }
-} else { 
+
+
+else { 
 	showToolTip = false
-}
+	}
 
 if (transitionOut) {
 	if (image_xscale < 10) {
 		image_xscale += 0.5
 		image_yscale += 0.5
-	}
-} else {
+		}
+	} 
+
+else {
 
 }
 

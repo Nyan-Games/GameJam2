@@ -27,7 +27,7 @@ function dialog(){
 	
 	#macro battle_win "5 I won... now off to find the original Enola, if she's alive..."
 	
-	#macro world_2_1_0 "3 I found a picture in the caves with a picture of a girl...\Ncomputer do you know what this was?"
+	#macro world_2_1_0 "3 I found a picture in the caves with a picture of a girl... \ncomputer do you know what this was?"
 	#macro world_2_1_1 "0 It appears to be an early version of your probe. \nWhile the outer structure is extremely similar, \nthe computer system is much simpler. \nIt was likely to go insane and fail within a few hundred years."
 	#macro world_2_1_2 "1 Ella. wonder who she is."
 	#macro world_2_1_3 "1 why would an AI be carrying a sentimental locket? \nwhat would happen when this Enola replicated?"

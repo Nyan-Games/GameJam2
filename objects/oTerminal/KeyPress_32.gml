@@ -214,6 +214,41 @@ if (shownText != readText) {
 		break;
 
 //--------------------------------------------- world 4 2 1
+
+		case world_4_2_1_1:
+			readText = world_4_2_1_2
+			storedText = world_4_2_1_2
+		break;
+		case world_4_2_1_2:
+			readText = world_4_2_1_3
+			storedText = world_4_2_1_3
+		break;
+		case world_4_2_1_3:
+			readText = world_4_2_1_4
+			storedText = world_4_2_1_4
+		break;
+		case world_4_2_1_4:
+			readText = world_4_2_1_5
+			storedText = world_4_2_1_5
+		break;
+		case world_4_2_1_5:
+			readText = world_4_2_1_6
+			storedText = world_4_2_1_6
+		break;
+		case world_4_2_1_6:
+			readText = world_4_2_1_7
+			storedText = world_4_2_1_7
+		break;
+		case world_4_2_1_7:
+			readText = world_4_2_1_8
+			storedText = world_4_2_1_8
+		break;
+		case world_4_2_1_8:
+			readText = world_4_2_1_9
+			storedText = world_4_2_1_9
+		break;
+		
+//------------------------------------------if you win the AI battle wolrd 4 2 1
 		case world_4_2_1_win_1:
 			readText = world_4_2_1_win_2
 			storedText = world_4_2_1_win_2

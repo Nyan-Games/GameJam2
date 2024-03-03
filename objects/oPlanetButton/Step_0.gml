@@ -14,8 +14,9 @@ if position_meeting(mouse_x,mouse_y,self) {
 			global.item = item
 			global.stage = 1
 		if global.act = 0 {
-			
+		
 			switch global.currentSystem
+			//this all occurs after you set course to a planet
 			{
 				case 1:		//case 1 is am i original plot
 					oTerminal.readText = original_IS1_1
