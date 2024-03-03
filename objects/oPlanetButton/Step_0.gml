@@ -13,8 +13,25 @@ if position_meeting(mouse_x,mouse_y,self) {
 			global.distance = distance
 			global.item = item
 			global.stage = 1
-			oTerminal.readText = original_IS1_2
-			oTerminal.storedText = original_IS1_2
+		if global.act = 0 {
+			
+			switch global.currentSystem
+			{
+				case 1:		//case 1 is am i original plot
+					oTerminal.readText = original_IS1_1
+					oTerminal.storedText = original_IS1_1
+				break;
+				
+				case 2:		//case 2 is folllow programming
+					oTerminal.readText = FOLLOW_IS_1
+					oTerminal.storedText = FOLLOW_IS_1	
+				break;
+				
+				case 3:		//case 3 is folllow programming
+					oTerminal.readText = FOLLOW_IS_1
+					oTerminal.storedText = FOLLOW_IS_1
+				break;
+		}
 		
 			switch resource {
 				case "Minerals":
@@ -34,6 +51,7 @@ if position_meeting(mouse_x,mouse_y,self) {
 		audio_sound_gain(snd, 0, 0);
 		audio_sound_gain(snd, .6, 5000);
 	}
+}
 } else { 
 	showToolTip = false
 }

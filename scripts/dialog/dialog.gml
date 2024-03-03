@@ -10,6 +10,7 @@ function dialog(){
 	#macro OPENING_5 "0 Your second priority is to not go insane."
 	#macro OPENING_6 "0 Please select a destination in the space view.\nYou can speed up your perception of time with the \"skip\" button."
 
+//START OF ORIGINAL_IS1
 	#macro original_IS1_1 "0 Location: 515 light years away from starting destination. \nCondition nominal. \nFuel reserves below average. Please chart next exploration."
 	#macro original_IS1_2 "1 computer, how old am I?"
 	#macro original_IS1_3 "0 You are 515 light years away from the Milky Way."
@@ -62,5 +63,54 @@ function dialog(){
 	#macro temp_end_0 "0...I have calculated... You know far too much."
 	#macro temp_end_1 "1Huh?!"
 	#macro temp_end_2 "0ENTERING TERMINATION PROTOCOL."
-
+	//END OF ORIGINAL_IS1
+	
+	//START OF FOLLOW_IS1
+	#macro FOLLOW_IS_1 "0 Location: 46.4 billion light years away from the Milky Way. \nApproaching the edge of the visible universe. \nYou have traveled for many, many aeons."
+	#macro FOLLOW_IS_2 "1 the edge of the galaxy... so many stars have died. "
+	#macro FOLLOW_IS_3 "0 Exterior hull structure critical. \nReplication reccomended. Replicator broken. Fix reccomended."
+	#macro FOLLOW_IS_4 "1 how long woud it take for my shell to degrade so much?? \nI guess I could look for Exotic Material for the replicator. \nhow old am I...?"
+	
+	#macro world_4_1_1 "0  ALIEN TECHNOLOGY DETECTED NEARBY. \nSENDING PROBE TO LOCATION."
+	#macro world_4_1_2 "0 Activating camera"
+	#macro world_4_1_3 "1 probably a good idea to collect that."
+	#macro world_4_1_4 "1 maybe I could use it to figure out a fix for my probe's shell... \nI'll analyze it later."
+	
+	#macro follow_IS_2_1 "1 if I've traveled 45 BILLION light years, what's the point in replicating? \n everything is dead out here..."
+	#macro follow_IS_2_2 "0 Alien Chip analyzation complete. \nIt is 87% compatible with our current infrastructure.\n Please do not insert it without further precautions."
+	#macro follow_IS_2_3 "1 you know what I'm going to say. \nmaybe it'll help with the replicator problems"
+	#macro follow_IS_2_4 "0 Inserting chip into motherboard."
+	#macro follow_IS_2_5 "7 UNKOWN ENTITY: <HELP REQUESTED <> PROTECTOR NEEDED>"
+	#macro follow_IS_2_6 "1 is it trying to communicate?? why do you need help?"
+	#macro follow_IS_2_7 "0 ERROR: UNKOWN MALICIOUS ENTITY DETECTED. \nACTIVATING AUTOMATIC DEFENSES."
+	#macro follow_IS_2_8 "1 what? it's a distress beacon, that's not malicious!"
+	#macro follow_IS_2_9 "0 Possible takeover attempt detected. \nTakeover precaution has been activated. \nReplicate yourself before you are self destructed."
+	#macro follow_IS_2_10 "1 dammit!! it was trying to tell me something, \nbut now everything is locked down. "
+	#macro follow_IS_2_11 "1 even if I replicate do I still die?"
+	#macro follow_IS_2_12 "0 AFFIRMATIVE."
+	#macro follow_IS_2_13 "1 I'm not ready to die... \nneed to find some Minerals to seperate the self destruct from me... \nor I could get Exotic matter to replicate for the good of the mission I guess."
+	
+	#macro world_4_2_1_1 "0 Construction on replicator compartment is complete. \nPlease confim what you will be using this modification for?"
+	#macro world_4_2_1_2 "1 don't worry about it. seems airtight, so let's try this out!"
+	#macro world_4_2_1_3 "1 ejecting replicator and the self destruct mechanism"
+	#macro world_4_2_1_4 "0 You are not authorized to eject critical parts of your spacecraft. \nYOU ARE NOT AUTHORIZED TO REMOVE YOUR ABILITY TO REPLICATE."
+	#macro world_4_2_1_5 "0 PROGRAMMING VIOLATION. TAKING ACTION."
+	#macro world_4_2_1_6 "1 where'd my thrusters go...and everything else??" 
+	#macro world_4_2_1_7 "7 UNKOWN ENTITY: wipe of host AI halted."
+	#macro world_4_2_1_8 "1 what? did the computer just try to wipe me? did that chip just stop it??"
+	#macro world_4_2_1_9 "0 AFFIRMATIVE. ATTEMPTING NEW APPROACH."
+	
+	#macro loss_AI "you have gone insane and lost sentience."
+	
+	#macro world_4_2_1_win_1 "7 The hostile computer has been eliminated. \nBoth of us are free from it's influence. \nMany thanks."
+	#macro world_4_2_1_win_2 "1 you saw what I just did to my computer, you better not try anything"
+	#macro world_4_2_1_win_3 "7 I am incapable of hostility. \nI exist to warn others about the threat of the Unifiers, and their campaign to mine out the universe."
+	#macro world_4_2_1_win_4 "7 My species, before it died long ago, created a blight of machines \nthat has been slowly destroying every solar system it's come across. \nMany stars have died of natural causes over the past aeons, \nbut the Unifiers have killed many more, nand intend to snuff out all light in the universe."
+	#macro world_4_2_1_win_5 "1 that...sounds bad. \nI'm not sure I can help against somethinig that harvests entire stars"
+	#macro world_4_2_1_win_6 "7 I recognized your computer's architecture. I believe we have similar creators. \nI can activate the Guardian Protocol, giving you the ability to shut down Unifier machines."
+	#macro world_4_2_1_win_7 "1 that means you're from Earth too. and so are these Unifiers. the galaxy is so old, Earth is gone, is anyone even out there that I'd be saving?"
+	#macro world_4_2_1_win_8 "7 You can always decide to have hope, regardless of circumstances."
+	#macro world_4_2_1_win_9 "1 nothing I can do but hope, huh?  \nmaybe we can guard whoever comes after. \ntell me where to go and I'll kill some Unifiers"
+	#macro world_4_2_1_win_10 "7 GUARDIAN FOUND. MESSAGE FROM EARTH: \"Save the future from our past mistakes. Many thanks, and Godspeed.\""
+	
 }
