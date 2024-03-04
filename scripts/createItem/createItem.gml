@@ -6,15 +6,15 @@ function createItem(){
 		switch global.item {
 			case 0:
 				image_index = 0;
-				toolTip = "A strange looking\nGREEN chip.\nClick to inspect."
+				toolTip = "A strange looking     >  GREEN chip.     >  Click to inspect."
 			break;
 			case 1:
 				image_index = 1;
-				toolTip = "A strange looking\nBROWN chip.\nClick to inspect."
+				toolTip = "A strange looking     >  BROWN chip.     >  Click to inspect."
 			break;
 			case 2:
 				image_index = 2;
-				toolTip = "A strange looking\nMINT chip.\nClick to inspect."
+				toolTip = "A strange looking     >  MINT chip.     >  Click to inspect."
 			break;
 		}
 	}

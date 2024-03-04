@@ -38,6 +38,8 @@ if !attacking {
 	if instance_exists(oPowerUp) {
 		instance_destroy(oPowerUp)	
 	}
+	//CHANGE THIS LATER FOR DIFFERENT ENDINGS
+
 }
 
 

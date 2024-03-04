@@ -1,4 +1,4 @@
-textMode = false
+room_goto(maze1)
 
 
 

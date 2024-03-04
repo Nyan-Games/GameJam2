@@ -3,6 +3,9 @@ if string_char_at(readText,1) = 0 or string_char_at(readText,1) = 1 or string_ch
 	readText = string_copy(readText,2,string_length(readText)-1)
 }
 
+
+
+
 if (textBuffer != readText) {
 	textBuffer = readText;
 	beingTyped = true
@@ -36,23 +39,96 @@ if global.stage == 2 {
 	}
 }
 
+
+
 if countdown = true {
 	if alarm[3] = -1 {
 		alarm[3] = 60	
 	}
 	if timer = 0 {
 		room_goto(Main)
-		readText = world_2_1_0
-	storedText = world_2_1_0
-	global.act = 1
+		 
+		 if (global.act = 1)
+		 {
+		switch global.currentSystem
+		{
+			case 1:
+				readText = world_2_1_0
+				storedText = world_2_1_0
+			break;
+			case 2:
+				readText = world_4_1_1
+				storedText = world_4_1_1
+			break;
+			case 3:
+				readText = world_4_1_1
+				storedText = world_4_1_1
+			break;
+		}
 	}
+	
+			 if (global.act = 2)
+		 {
+		switch global.currentSystem
+		{
+			case 1:
+				readText = world_2_1_0
+				storedText = world_2_1_0
+			break;
+			case 2:
+				readText = world_4_2_1_1
+				storedText = world_4_2_1_1
+			break;
+			case 3:
+				readText = world_4_2_1_1
+				storedText = world_4_2_1_1
+			break;
+		}
+	}
+}
 }
 
 if !instance_exists(oMaterialPickup) and room != Main {
 	room_goto(Main)
-	readText = world_2_1_0
-	storedText = world_2_1_0
-	global.act = 1
+		room_goto(Main)
+	
+		if (global.act = 1)
+		{
+			switch global.currentSystem
+			{
+				case 1:
+					readText = world_2_1_0
+					storedText = world_2_1_0
+				break;
+				case 2:
+					readText = world_4_1_1
+					storedText = world_4_1_1
+				break;
+				case 3:
+					readText = world_4_1_1
+					storedText = world_4_1_1
+				break;
+		}
+	}
+	
+		if (global.act = 2)
+		 {
+		switch global.currentSystem
+		{
+			case 1:
+				readText = world_2_1_0
+				storedText = world_2_1_0
+			break;
+			case 2:
+				readText = world_4_2_1_1
+				storedText = world_4_2_1_1
+			break;
+			case 3:
+				readText = world_4_2_1_1
+				storedText = world_4_2_1_1
+			break;
+		}
+	}
 }
 
 if (!instance_exists(oPlayer) and !textMode) {
@@ -78,7 +154,10 @@ show_debug_message("X")
 */
 if global.hp == 0 {
 	textMode = true
-	global.hp = 3
-}
+	//change this to a switch case for hte diffierent endings fursure
+	oTerminal.readText = loss_AI 
+	oTerminal.storedText = loss_AI 
 
+}
 show_debug_message(global.act)
+show_debug_message(global.stage)

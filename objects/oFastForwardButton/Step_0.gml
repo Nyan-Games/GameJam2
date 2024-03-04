@@ -15,12 +15,8 @@ if active {
 			oTerminal.readText = speedup_1
 			oTerminal.storedText = speedup_1
 			audio_play_sound(accelIntoEngine, 0, false, .5, 4.8);
-			
+			instance_destroy(self)
 			audio_sound_gain(engineambience, 0, 2000);
 		}
 	}
-}
-
-if global.act != 0 {
-	instance_destroy(self)	
 }

@@ -1,7 +1,3 @@
-if global.stage = 1 {
-
-}
-
 switch global.stage {
 	case 1:
 		scale = 1/(global.distance+1)
@@ -21,7 +17,3 @@ image_yscale = scale
 
 
 image_index = global.planetSprite
-
-if global.act != 0 {
-	instance_destroy(self)	
-}

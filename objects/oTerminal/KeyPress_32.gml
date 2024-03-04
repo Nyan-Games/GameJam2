@@ -151,10 +151,6 @@ if (shownText != readText) {
 
 //-------------------------------- world 4 1
 		case world_4_1_1:
-			readText = world_4_1_2
-			storedText = world_4_1_2
-		break;		
-		case world_4_1_2:
 			readText = world_4_1_3
 			storedText = world_4_1_3
 		break;	
@@ -246,6 +242,9 @@ if (shownText != readText) {
 		case world_4_2_1_8:
 			readText = world_4_2_1_9
 			storedText = world_4_2_1_9
+		break;
+		case world_4_2_1_9:
+			textMode = false;
 		break;
 		
 //------------------------------------------if you win the AI battle wolrd 4 2 1

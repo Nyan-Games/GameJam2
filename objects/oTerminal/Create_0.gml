@@ -29,6 +29,7 @@ global.hasItem = false
 timer = 120;
 countdown = false
 timerColor = c_green
+inMine = false;		//checks if youre inthe mining minigame
 
 textMode = true
 
