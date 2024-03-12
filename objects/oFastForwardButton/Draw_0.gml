@@ -1,4 +1,4 @@
-if active {
+if drawing {
 	draw_self()	
 }
 

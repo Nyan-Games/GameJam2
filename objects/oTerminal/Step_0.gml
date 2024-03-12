@@ -159,5 +159,3 @@ if global.hp == 0 {
 	oTerminal.storedText = loss_AI 
 
 }
-show_debug_message(global.act)
-show_debug_message(global.stage)

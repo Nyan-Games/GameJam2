@@ -10,16 +10,17 @@ directionH = -1*left + right
 
 if left {
 	image_xscale = -1
-	
+	probeEngine()
 }
 
 if right {
 	image_xscale = 1	
+	probeEngine()
 }
 
 if (left or right) and !(keyboard_check(vk_up) or keyboard_check(ord("W"))) {
 	fallSpeed = 0
-	
+	probeEngine()
 }
 
 /*if ((left and right) and !(keyboard_check(vk_up) or keyboard_check(ord("W"))))	//if youre just holding left and right
@@ -29,18 +30,21 @@ if (left or right) and !(keyboard_check(vk_up) or keyboard_check(ord("W"))) {
 
 if keyboard_check_pressed(vk_up) or keyboard_check_pressed(ord("W"))  {
 	fallSpeed = 0
+	probeEngine()
 }
 
 if keyboard_check_released(vk_up) or keyboard_check_released(ord("W")) {
 	fallSpeed = fallSpeed*-1*.5
+	probeEngine()
 }
 
 if (keyboard_check(vk_up) or keyboard_check(ord("W"))) {
 	y -= fallSpeed
+	probeEngine()
 } else {
 	y += fallSpeed
+	
 }
-
 
 
 if keyboard_check(vk_shift) {
@@ -78,6 +82,7 @@ if (place_meeting(x,y,tilemapSub)) {
 	oTerminal.readText = mining_ow
 	oTerminal.storedText = mining_ow
 	hitScriptSound()
+	
 	
 } else {
 	oTerminal.timerColor = c_green
