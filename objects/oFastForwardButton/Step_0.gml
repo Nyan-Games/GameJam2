@@ -24,6 +24,7 @@ if active {
 			audio_play_sound(accelIntoEngine, 0, false, .5, 4.8);
 
 			audio_sound_gain(engineambience, 0, 2000);
+			clickSound();
 			image_index = 2;
 		}
 } else

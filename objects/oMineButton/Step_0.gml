@@ -1,8 +1,8 @@
 if position_meeting(mouse_x,mouse_y,self) {
 		if mouse_check_button_pressed(mb_left) {
 			image_index = 2;
+			clickSound();
 			gotoroom = irandom(3)
-
 			switch gotoroom {
 				case 0:
 					room_goto(maze1)
